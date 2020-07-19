@@ -2,13 +2,12 @@ import React from 'react';
 
 import './App.css';
 import Home from './Home';
-import About from './About';
+
 import { Routes, Route, } from 'react-router-dom';
 import Products from './Products';
 import ProductDetail from './ProductDetail';
 import ProductHome from './ProductHome';
 //import NavBar from './components/NavBar';
-import Tabs from './components/Tabs';
 
 
 function NotFound(){
