@@ -6,7 +6,7 @@ function Products() {
   return (
     
     <div>
-     <h1>Welcome To Shoe store </h1>
+     <h1>Products Page </h1>
      <Outlet />
      
     </div>

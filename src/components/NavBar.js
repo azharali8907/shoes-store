@@ -25,8 +25,8 @@ function NavBar() {
         <Grid item xs={12}>
           <Paper className={classes.paper}>
           <div>
-    <Link to="/">Home</Link> {" "}
-    <Link to="products">Product</Link>{" "}
+    <Link to="/" style={{color:'white', borderRadius:"10px", padding:'12px', backgroundColor:"red", margin:'10px', textDecoration:'none'}}>HOME</Link> {" "}
+    <Link to="products" style={{color:'white', borderRadius:"10px", padding:'12px', backgroundColor:"red", margin:'10px', textDecoration:'none'}}>PRODUCTS</Link>{" "}
      
 	</div>
           </Paper>

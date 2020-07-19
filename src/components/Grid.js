@@ -25,13 +25,7 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-      <Grid item xs={12}>
-          <Paper className={classes.paper}>
-            <div className="backimg">
-            
-            </div>
-          </Paper>
-        </Grid>
+      
         <Grid item xs={4}>
           <Paper className={classes.paper}>
              <Cards/> 

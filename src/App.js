@@ -7,7 +7,8 @@ import { Routes, Route, } from 'react-router-dom';
 import Products from './Products';
 import ProductDetail from './ProductDetail';
 import ProductHome from './ProductHome';
-//import NavBar from './components/NavBar';
+
+import NavBar from './components/NavBar';
 
 
 function NotFound(){
@@ -18,8 +19,10 @@ function NotFound(){
 
 function App() {
   
+    
   return (
     <div>
+      <NavBar/>
     <Routes>
      <Route path="/" element={<Home />}></Route>
     {/* <Route path="/about" element={<About/>}></Route>
@@ -33,6 +36,7 @@ function App() {
     </Routes>
     </div>
   );
+  
 }
 
 export default App;
